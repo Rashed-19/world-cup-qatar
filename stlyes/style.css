@@ -1,38 +1,99 @@
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-.start div h1 {
-    width: 531px;
-    height: 240px;
-    left: 246px;
-    top: 178px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 80px;
-}
-
-.start {
-    display: flex;
-    background-color: #161616;
-    color: aliceblue;
-    border-radius: 5px;
-    padding: 60px;
-}
-
-.banner-design {
-    width: 581px;
-    height: 613px;
-    left: 801px;
-    top: 55px;
-    padding: 50px;
-}
-
-.link-button1 {
-    text-decoration: none;
-    background-color: #DD0000;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
-}
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .start div h1 {
+            width: 531px;
+            height: 240px;
+            left: 246px;
+            top: 178px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+        }
+        
+        .start {
+            display: flex;
+            background-color: #161616;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 60px;
+        }
+        
+        .banner-design {
+            width: 581px;
+            height: 613px;
+            left: 801px;
+            top: 55px;
+            padding: 50px;
+        }
+        
+        .link-button1 {
+            text-decoration: none;
+            background-color: #DD0000;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+        }
+        
+        .button {
+            background-color: white;
+            color: white text-decoration: none;
+            margin-left: 10px;
+            font-size: 20px;
+            width: 200px;
+            height: 70px;
+            border-radius: 5px;
+        }
+        
+        .button:hover {
+            background-color: #DD0000;
+        }
+        
+        .second-section {
+            display: grid;
+            grid-template-columns: 500px 1fr;
+            align-items: center;
+        }
+        
+        .blog-container {
+            background-color: black;
+            padding: 20px;
+            width: 350px;
+            gap: 20px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        
+        .container {
+            margin: 20px 60px;
+        }
+        
+        .player-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 20px;
+        }
+        
+        .player-container img {
+            width: 100%;
+        }
+        
+        .player-container p {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+        }
+        
+        .duration {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .second-section {
+            display: flex;
+        }
+        
+        .extra-button {
+            text-align: center;
+        }
