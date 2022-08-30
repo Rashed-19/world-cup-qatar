@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.start div h1 {
+    width: 531px;
+    height: 240px;
+    left: 246px;
+    top: 178px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.start {
+    display: flex;
+    background-color: #161616;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.banner-design {
+    width: 581px;
+    height: 613px;
+    left: 801px;
+    top: 55px;
+    padding: 50px;
+}
+
+.link-button1 {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
