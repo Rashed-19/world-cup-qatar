@@ -126,6 +126,9 @@
             .footer-section {
                 grid-template-columns: repeat(1, 1fr);
             }
+            .first-section {
+                grid-template-columns: repeat(1, 1fr);
+            }
             .extra-button {
                 display: none;
                 width: 100%;
